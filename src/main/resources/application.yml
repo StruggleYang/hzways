@@ -1,0 +1,10 @@
+server:
+  port: 80
+
+spring:
+  freemarker:
+    charset: UTF-8
+    suffix: .html
+    cache: false
+    request-context-attribute: request
+    template-loader-path: classpath:/templates
